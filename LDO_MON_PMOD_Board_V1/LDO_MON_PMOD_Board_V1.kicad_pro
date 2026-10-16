@@ -45,8 +45,8 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.15,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -256,6 +256,10 @@
         },
         {
           "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.6,
           "drill": 0.25
         },
         {
@@ -559,6 +563,7 @@
     "net_colors": {
       "3V3_PMOD": "rgb(255, 41, 113)",
       "BIAS": "rgb(75, 26, 255)",
+      "ENABLE": "rgb(255, 140, 230)",
       "GND": "rgb(82, 255, 44)",
       "OUT_1": "rgb(181, 69, 255)",
       "OUT_2": "rgb(255, 36, 251)",
@@ -709,7 +714,7 @@
         "uuid": "73da7aae-aa40-47f4-ae3e-fa14a1347f57"
       }
     ],
-    "used_designators": "JP1-3,P1-2,#PWR1-32,U1-7,J1-3,R1-40,C1-52,TP1-4",
+    "used_designators": "JP1-3,P1-2,#PWR1-37,U1-8,J1-3,R1-45,C1-52,TP1-4,D1-2,Q1",
     "variants": []
   },
   "sheets": [
