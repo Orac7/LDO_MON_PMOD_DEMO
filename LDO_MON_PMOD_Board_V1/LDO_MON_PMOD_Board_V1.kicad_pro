@@ -76,7 +76,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|106500000|107700000|de74a9fa-ff79-4fe3-a5da-6c46feb66ad7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|109000000|107700000|3710d109-814a-4537-bc24-ad7757455896|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|111500000|107700000|66d86a72-71bd-4cfc-a8e6-2907a25fda7f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|128807500|92000000|402d3366-f9cc-46e3-9957-a230725450a1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|160000000|100000000|9c04c8eb-af8e-444d-b50b-5336cdc72184|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|129400000|107100000|27a9dd6e-dd7c-4e51-9d46-c525c0e67442|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|129400000|107900000|2aeb23f6-4a90-477e-ac0a-d244eb60cef8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|129400000|98100000|b55ac808-4a1f-4977-a31c-ae9e46b70728|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|129400000|98900000|0b0fa471-de25-4032-bd79-bbc1a532f2cd|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -577,7 +614,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../MANUFACTURING_DATA/Gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -590,7 +627,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -664,12 +701,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
