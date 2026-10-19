@@ -1,0 +1,236 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-19T12:45:38",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "LDO_MON_PMOD_Board_V1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "The current configuration does not include the footprint library 'klib_connectors'",
+            "items": [
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "04173a01-34fb-4346-86fa-186c7161beb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'klib_logic'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 128.5,
+                        "y": 107.5
+                    },
+                    "uuid": "36be4faf-d787-4242-977d-c51728a28cd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'klib_logic'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 128.5,
+                        "y": 98.5
+                    },
+                    "uuid": "968ade1f-cb09-40ed-9b1f-88c1a0142987"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "comment": "",
+            "description": "Via is not connected or connected on only one layer",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Via [OUT_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.4,
+                        "y": 98.9
+                    },
+                    "uuid": "0b0fa471-de25-4032-bd79-bbc1a532f2cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "comment": "",
+            "description": "Via is not connected or connected on only one layer",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Via [OUT_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.4,
+                        "y": 98.1
+                    },
+                    "uuid": "b55ac808-4a1f-4977-a31c-ae9e46b70728"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "comment": "",
+            "description": "Via is not connected or connected on only one layer",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Via [OUT_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.4,
+                        "y": 107.1
+                    },
+                    "uuid": "27a9dd6e-dd7c-4e51-9d46-c525c0e67442"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "comment": "",
+            "description": "Via is not connected or connected on only one layer",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Via [OUT_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.4,
+                        "y": 107.9
+                    },
+                    "uuid": "2aeb23f6-4a90-477e-ac0a-d244eb60cef8"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "comment": "",
+            "description": "Footprint 'SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint JP2",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 107.7
+                    },
+                    "uuid": "3710d109-814a-4537-bc24-ad7757455896"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "comment": "",
+            "description": "Footprint 'VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm' does not match copy in library 'Package_DFN_QFN'",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 92.0
+                    },
+                    "uuid": "402d3366-f9cc-46e3-9957-a230725450a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "comment": "",
+            "description": "Footprint 'SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint JP3",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 107.7
+                    },
+                    "uuid": "66d86a72-71bd-4cfc-a8e6-2907a25fda7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "comment": "",
+            "description": "Footprint 'PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal' does not match copy in library 'Connector_Phoenix_MC'",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 157.0675,
+                        "y": 105.195
+                    },
+                    "uuid": "9c04c8eb-af8e-444d-b50b-5336cdc72184"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "comment": "",
+            "description": "Footprint 'SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint JP1",
+                    "pos": {
+                        "x": 106.5,
+                        "y": 107.7
+                    },
+                    "uuid": "de74a9fa-ff79-4fe3-a5da-6c46feb66ad7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

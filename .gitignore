@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# KiCad transient / local state
+*.lck
+~*.lck
+*-backups/
+fp-info-cache
+
+# Python bytecode from the review scripts
+__pycache__/
+*.pyc
+
+# Vendor datasheets used by the review are not redistributed in this repo.
+# See CLAUDE_REVIEW/README.md for the list and how to obtain them.
+CLAUDE_REVIEW/datasheets/

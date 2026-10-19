@@ -1,0 +1,48 @@
+ERC report (2026-10-19T12:45:24, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'klib_connectors'
+    ; warning
+    @(60.96 mm, 53.34 mm): Symbol P1 [PMOD-Device-x2-Type-Generic-Alt]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'klib_connectors'
+    ; warning
+    @(60.96 mm, 53.34 mm): Symbol P1 [PMOD-Device-x2-Type-Generic-Alt]
+[multiple_net_names]: Both OUT_1 and SENSE_1_P are attached to the same items; OUT_1 will be used in the netlist
+    ; warning
+    @(440.69 mm, 261.62 mm): Global Label 'OUT_1'
+    @(254.00 mm, 243.84 mm): Global Label 'SENSE_1_P'
+[multiple_net_names]: Both OUT_2 and SENSE_2_P are attached to the same items; OUT_2 will be used in the netlist
+    ; warning
+    @(544.83 mm, 139.70 mm): Global Label 'OUT_2'
+    @(254.00 mm, 274.32 mm): Global Label 'SENSE_2_P'
+[multiple_net_names]: Both SENSE_4_N and V_IN are attached to the same items; SENSE_4_N will be used in the netlist
+    ; warning
+    @(459.74 mm, 351.79 mm): Global Label 'SENSE_4_N'
+    @(406.40 mm, 139.70 mm): Global Label 'V_IN'
+[multiple_net_names]: Both SENSE_1_N and SENSE_2_N are attached to the same items; SENSE_1_N will be used in the netlist
+    ; warning
+    @(440.69 mm, 246.38 mm): Global Label 'SENSE_1_N'
+    @(440.69 mm, 289.56 mm): Global Label 'SENSE_2_N'
+[footprint_link_issues]: The current configuration does not include the footprint library 'klib_logic'
+    ; warning
+    @(485.14 mm, 33.02 mm): Symbol U1 [LT3074AV#PBF]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'klib_logic'
+    ; warning
+    @(485.14 mm, 33.02 mm): Symbol U1 [LT3074AV#PBF]
+[footprint_link_issues]: The current configuration does not include the footprint library 'klib_logic'
+    ; warning
+    @(485.14 mm, 139.70 mm): Symbol U2 [LT3074AV#PBF]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'klib_logic'
+    ; warning
+    @(485.14 mm, 139.70 mm): Symbol U2 [LT3074AV#PBF]
+
+ ** ERC messages: 10  Errors 0  Warnings 10
+
+ ** Ignored checks:
+    - Input pin not driven by any Output pins
+    - Input Power pin not driven by any Output Power pins
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

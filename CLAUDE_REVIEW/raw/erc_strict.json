@@ -1,0 +1,293 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-19T12:46:30",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/73da7aae-aa40-47f4-ae3e-fa14a1347f57",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 0.5588
+                            },
+                            "uuid": "b4656c71-b206-434a-8649-16e3f2a5afc9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'klib_connectors'",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [PMOD-Device-x2-Type-Generic-Alt]",
+                            "pos": {
+                                "x": 0.6096,
+                                "y": 0.5334
+                            },
+                            "uuid": "efc0290f-7313-408f-b74a-6e62bca2c69d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'klib_connectors'",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [PMOD-Device-x2-Type-Generic-Alt]",
+                            "pos": {
+                                "x": 0.6096,
+                                "y": 0.5334
+                            },
+                            "uuid": "efc0290f-7313-408f-b74a-6e62bca2c69d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Global label only appears once in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'GPIO'",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 2.9464
+                            },
+                            "uuid": "5574c205-424f-4e05-a706-915b5e913993"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "single_global_label"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 8 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 1.778
+                            },
+                            "uuid": "e15e1bae-2af2-456b-bb27-1785122a24ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Both OUT_1 and SENSE_1_P are attached to the same items; OUT_1 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Global Label 'OUT_1'",
+                            "pos": {
+                                "x": 4.4069,
+                                "y": 2.6162
+                            },
+                            "uuid": "1662b8aa-55d5-489b-bba0-74855234fbb8"
+                        },
+                        {
+                            "description": "Global Label 'SENSE_1_P'",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 2.4384
+                            },
+                            "uuid": "0a5d50b4-cfea-4ed7-960f-0a5af314a208"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both OUT_2 and SENSE_2_P are attached to the same items; OUT_2 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Global Label 'OUT_2'",
+                            "pos": {
+                                "x": 5.4483,
+                                "y": 1.397
+                            },
+                            "uuid": "0aa7bd43-ce5c-4223-906a-91a493554a47"
+                        },
+                        {
+                            "description": "Global Label 'SENSE_2_P'",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 2.7432
+                            },
+                            "uuid": "1a8aa8d3-dbf2-49dc-af1e-ab78a3da4498"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U8 Pin 7 [VREF2, Power input, Line]",
+                            "pos": {
+                                "x": 3.5433,
+                                "y": 2.8575
+                            },
+                            "uuid": "54617cbf-2fa0-4da8-aaac-b3ad09f92179"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Both SENSE_4_N and V_IN are attached to the same items; SENSE_4_N will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Global Label 'SENSE_4_N'",
+                            "pos": {
+                                "x": 4.5974,
+                                "y": 3.5179
+                            },
+                            "uuid": "a9a1f3eb-d0f7-4258-be87-179c1c327cfd"
+                        },
+                        {
+                            "description": "Global Label 'V_IN'",
+                            "pos": {
+                                "x": 4.064,
+                                "y": 1.397
+                            },
+                            "uuid": "2b9d7fbc-9e10-4188-87c4-45456cb06c8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both SENSE_1_N and SENSE_2_N are attached to the same items; SENSE_1_N will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Global Label 'SENSE_1_N'",
+                            "pos": {
+                                "x": 4.4069,
+                                "y": 2.4638
+                            },
+                            "uuid": "1a2a5869-98e4-4c2d-8cc4-734c3787da7f"
+                        },
+                        {
+                            "description": "Global Label 'SENSE_2_N'",
+                            "pos": {
+                                "x": 4.4069,
+                                "y": 2.8956
+                            },
+                            "uuid": "2298071b-2ce5-4109-8828-a05d6a01f064"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Assigned footprint (c_0603_1608metric) doesn't match footprint filters (CP_*)",
+                    "items": [
+                        {
+                            "description": "Symbol C9 [C_Polarized_Small]",
+                            "pos": {
+                                "x": 4.7752,
+                                "y": 2.6797
+                            },
+                            "uuid": "deefce10-50bb-460a-82b0-51fbfdeea269"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_filter"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'klib_logic'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [LT3074AV#PBF]",
+                            "pos": {
+                                "x": 4.8514,
+                                "y": 0.3302
+                            },
+                            "uuid": "0d2c1939-44a3-4a84-94bf-09be57d40fd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'klib_logic'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [LT3074AV#PBF]",
+                            "pos": {
+                                "x": 4.8514,
+                                "y": 0.3302
+                            },
+                            "uuid": "0d2c1939-44a3-4a84-94bf-09be57d40fd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'klib_logic'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [LT3074AV#PBF]",
+                            "pos": {
+                                "x": 4.8514,
+                                "y": 1.397
+                            },
+                            "uuid": "628ede41-2ede-4472-924c-66c7f911d046"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'klib_logic'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [LT3074AV#PBF]",
+                            "pos": {
+                                "x": 4.8514,
+                                "y": 1.397
+                            },
+                            "uuid": "628ede41-2ede-4472-924c-66c7f911d046"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Assigned footprint (c_0603_1608metric) doesn't match footprint filters (CP_*)",
+                    "items": [
+                        {
+                            "description": "Symbol C13 [C_Polarized_Small]",
+                            "pos": {
+                                "x": 4.8768,
+                                "y": 2.6797
+                            },
+                            "uuid": "62dc10a1-6dbf-46e5-a18e-a88512aae448"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_filter"
+                }
+            ]
+        }
+    ],
+    "source": "LDO_MON_PMOD_Board_V1.kicad_sch"
+}

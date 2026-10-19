@@ -1,0 +1,119 @@
+ref	value	footprint	lib	desc	Manufacturer	MPN	LCSC	Datasheet	DNP
+C1	470n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C2	2u2	Capacitor_SMD:C_0603_1608Metric	C_Small	Unpolarized capacitor, small symbol					
+C3	4u7	Capacitor_SMD:C_0603_1608Metric	C_Small	Unpolarized capacitor, small symbol					
+C4	22u	Capacitor_SMD:C_1210_3225Metric	C_Small	Unpolarized capacitor, small symbol					
+C5	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C6	220u	Capacitor_SMD:CP_Elec_8x10	C_Polarized_Small	Polarized capacitor, small symbol					
+C7	47u	Capacitor_SMD:C_1210_3225Metric	C_Small	Unpolarized capacitor, small symbol					
+C8	4u7	Capacitor_SMD:C_0603_1608Metric	C_Small	Unpolarized capacitor, small symbol					
+C9	4u7	Capacitor_SMD:C_0603_1608Metric	C_Polarized_Small	Polarized capacitor, small symbol					
+C10	47u	Capacitor_SMD:C_1210_3225Metric	C_Small	Unpolarized capacitor, small symbol					
+C11	4u7	Capacitor_SMD:C_0603_1608Metric	C_Small	Unpolarized capacitor, small symbol					
+C12	22u	Capacitor_SMD:C_1210_3225Metric	C_Small	Unpolarized capacitor, small symbol					
+C13	4u7	Capacitor_SMD:C_0603_1608Metric	C_Polarized_Small	Polarized capacitor, small symbol					
+C14	470n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C15	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C16	2u2	Capacitor_SMD:C_0603_1608Metric	C_Small	Unpolarized capacitor, small symbol					
+C17	470n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C18	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C19	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C20	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C21	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C22	4u7	Capacitor_SMD:C_0603_1608Metric	C_Small	Unpolarized capacitor, small symbol					
+C23	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C24	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C25	4u7	Capacitor_SMD:C_0603_1608Metric	C_Small	Unpolarized capacitor, small symbol					
+C26	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C27	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C28	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C29	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C30	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C31	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C32	4u7	Capacitor_SMD:C_0603_1608Metric	C_Small	Unpolarized capacitor, small symbol					
+C33	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C34	47n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C35	4n7	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C36	4n7	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C37	47n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C38	4n7	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C39	4n7	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C40	47n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C41	4n7	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C42	4n7	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C43	47n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C44	4n7	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C45	4n7	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C46	10n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C47	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C48	10u	Capacitor_SMD:C_0603_1608Metric	C_Small	Unpolarized capacitor, small symbol					
+C49	1u	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C50	47u	Capacitor_SMD:C_1210_3225Metric	C_Small	Unpolarized capacitor, small symbol					
+C51	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+C52	100n	Capacitor_SMD:C_0402_1005Metric	C_Small	Unpolarized capacitor, small symbol					
+D1	LED	LED_SMD:LED_0402_1005Metric	LED	Light emitting diode					
+D2	LED	LED_SMD:LED_0402_1005Metric	LED	Light emitting diode					
+J1	3-Pin Harwin	Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical	Conn_01x03	Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)					
+J2	2-Pin Harwin	Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical	Conn_01x02	Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)					
+J3	Conn_01x04	Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal	Conn_01x04	Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)					
+JP1	SolderJumper_3_Open	Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm	SolderJumper_3_Open	Solder Jumper, 3-pole, open					
+JP2	SolderJumper_3_Open	Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm	SolderJumper_3_Open	Solder Jumper, 3-pole, open					
+JP3	SolderJumper_3_Open	Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm	SolderJumper_3_Open	Solder Jumper, 3-pole, open					
+P1	PMOD-Device-x2-Type-Generic-Alt	klib_connectors:pmod_pin_array_6x2	PMOD-Device-x2-Type-Generic-Alt						
+Q1	MMBT3904	Package_TO_SOT_SMD:SOT-23	MMBT3904	0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23				https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf	
+R1	200R	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R2	261k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R3	1k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R4	47k5	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R5	10k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R6	4k7	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R7	4k7	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R8	0R	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R9	50k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R10	4k7	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R11	200R	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R12	1k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R13	69k8	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R14	261k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R15	2mR	Resistor_SMD:R_2512_6332Metric	R	Resistor					
+R16	2mR	Resistor_SMD:R_2512_6332Metric	R	Resistor					
+R17	10k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R18	1k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R19	1k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R20	10k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R21	10k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R22	200k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R23	10k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R24	10k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R25	10k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R26	0R	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R27	4k99	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R28	4k99	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R29	4k99	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R30	4k99	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R31	4k99	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R32	4k99	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R33	4k99	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R34	4k99	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R35	15mR	Resistor_SMD:R_2512_6332Metric	R	Resistor					
+R36	0R	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R37	10k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R38	10k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R39	15mR	Resistor_SMD:R_2512_6332Metric	R	Resistor					
+R40	100R	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R41	4k7	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R42	1k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R43	4k7	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+R44	1k	Resistor_SMD:R_0402_1005Metric	R	Resistor					
+TP1	IMON	TestPoint:TestPoint_Pad_1.0x1.0mm	TestPoint	test point					
+TP2	VIOC	TestPoint:TestPoint_Pad_1.0x1.0mm	TestPoint	test point					
+TP3	VIOC	TestPoint:TestPoint_Pad_1.0x1.0mm	TestPoint	test point					
+TP4	IMON	TestPoint:TestPoint_Pad_1.0x1.0mm	TestPoint	test point					
+U1	LT3074AV#PBF	klib_logic:LT3074AV#PBF	LT3074AV#PBF						
+U2	LT3074AV#PBF	klib_logic:LT3074AV#PBF	LT3074AV#PBF						
+U3	MAX6373	Package_TO_SOT_SMD:SOT-23-8	MAX6373	Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8				https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf	
+U4	74LVC1G175	Package_TO_SOT_SMD:SOT-23-6	74LVC1G175	Single D Flip-Flop, Asynchronous Clear, Low-Voltage CMOS				http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf	
+U5	PAC1944x-x4MX	Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm	PAC1944x-x4MX	Four Channel High-side Power Monitor, 9V, I2C, VQFN-16				https://ww1.microchip.com/downloads/en/DeviceDoc/PAC194X-Data-Sheet-20006543.pdf	
+U6	74LVC1G08	Package_TO_SOT_SMD:Texas_R-PDSO-N5_DRL-5	74LVC1G08	Single AND Gate, Low-Voltage CMOS				https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf	
+U7	AD5272BCP	Package_CSP:LFCSP-WD-10-1EP_3x3mm_P0.5mm_EP1.64x2.38mm	AD5272BCP	Digital potentiometer, 1024 position, 1% Resistor Tolerance, I2C interface, LFCSP-10				https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf	
+U8	PCA9306	Package_SO:VSSOP-8_2.3x2mm_P0.5mm	PCA9306	Dual bidirectional I2C Bus and SMBus voltage level translator				http://www.ti.com/lit/ds/symlink/pca9306.pdf	

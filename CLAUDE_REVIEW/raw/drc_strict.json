@@ -1,0 +1,274 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-19T12:46:34",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Capacitor_SMD:C_0603_1608Metric doesn't match symbol's footprint filters (CP_*)",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 105.0
+                    },
+                    "uuid": "c68e4786-14cb-47f0-b3f7-1cc3f1100978"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Capacitor_SMD:C_0603_1608Metric doesn't match symbol's footprint filters (CP_*)",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 144.015,
+                        "y": 103.22
+                    },
+                    "uuid": "51ef3883-e0f1-4086-b9c4-9b6c1121935c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        }
+    ],
+    "source": "LDO_MON_PMOD_Board_V1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [OUT_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.4,
+                        "y": 98.9
+                    },
+                    "uuid": "0b0fa471-de25-4032-bd79-bbc1a532f2cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [OUT_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.4,
+                        "y": 98.1
+                    },
+                    "uuid": "b55ac808-4a1f-4977-a31c-ae9e46b70728"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [OUT_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.4,
+                        "y": 107.1
+                    },
+                    "uuid": "27a9dd6e-dd7c-4e51-9d46-c525c0e67442"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [OUT_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.4,
+                        "y": 107.9
+                    },
+                    "uuid": "2aeb23f6-4a90-477e-ac0a-d244eb60cef8"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.9475 mm",
+                    "pos": {
+                        "x": 114.4475,
+                        "y": 91.9
+                    },
+                    "uuid": "059f07d7-e3ca-4aa6-996e-1713cea37fe4"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 113.3525,
+                        "y": 91.9
+                    },
+                    "uuid": "bec2dee2-5a88-4f3d-b0fb-741194b22e4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.7071 mm",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 91.9
+                    },
+                    "uuid": "22e94019-6041-4885-b4b2-084348770398"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 113.3525,
+                        "y": 91.9
+                    },
+                    "uuid": "bec2dee2-5a88-4f3d-b0fb-741194b22e4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'klib_connectors'",
+            "items": [
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "04173a01-34fb-4346-86fa-186c7161beb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'klib_logic'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 128.5,
+                        "y": 107.5
+                    },
+                    "uuid": "36be4faf-d787-4242-977d-c51728a28cd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'",
+            "items": [
+                {
+                    "description": "Footprint JP2",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 107.7
+                    },
+                    "uuid": "3710d109-814a-4537-bc24-ad7757455896"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm' does not match copy in library 'Package_DFN_QFN'",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 92.0
+                    },
+                    "uuid": "402d3366-f9cc-46e3-9957-a230725450a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'",
+            "items": [
+                {
+                    "description": "Footprint JP3",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 107.7
+                    },
+                    "uuid": "66d86a72-71bd-4cfc-a8e6-2907a25fda7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'klib_logic'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 128.5,
+                        "y": 98.5
+                    },
+                    "uuid": "968ade1f-cb09-40ed-9b1f-88c1a0142987"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal' does not match copy in library 'Connector_Phoenix_MC'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 157.0675,
+                        "y": 105.195
+                    },
+                    "uuid": "9c04c8eb-af8e-444d-b50b-5336cdc72184"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'",
+            "items": [
+                {
+                    "description": "Footprint JP1",
+                    "pos": {
+                        "x": 106.5,
+                        "y": 107.7
+                    },
+                    "uuid": "de74a9fa-ff79-4fe3-a5da-6c46feb66ad7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

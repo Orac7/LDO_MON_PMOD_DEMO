@@ -1,0 +1,54 @@
+** Drc report for LDO_MON_PMOD_Board_V1.kicad_pcb **
+** Created on 2026-10-19T12:45:40 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 12 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'klib_connectors'
+    Local override; warning
+    @(100.0000 mm, 100.0000 mm): Footprint P1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'klib_logic'
+    Local override; warning
+    @(128.5000 mm, 107.5000 mm): Footprint U2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'klib_logic'
+    Local override; warning
+    @(128.5000 mm, 98.5000 mm): Footprint U1
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(129.4000 mm, 98.9000 mm): Via [OUT_1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(129.4000 mm, 98.1000 mm): Via [OUT_1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(129.4000 mm, 107.1000 mm): Via [OUT_2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(129.4000 mm, 107.9000 mm): Via [OUT_2] on F.Cu - B.Cu
+[lib_footprint_mismatch]: Footprint 'SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'
+    Local override; warning (excluded)
+    @(109.0000 mm, 107.7000 mm): Footprint JP2
+[lib_footprint_mismatch]: Footprint 'VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm' does not match copy in library 'Package_DFN_QFN'
+    Local override; warning (excluded)
+    @(129.0000 mm, 92.0000 mm): Footprint U5
+[lib_footprint_mismatch]: Footprint 'SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'
+    Local override; warning (excluded)
+    @(111.5000 mm, 107.7000 mm): Footprint JP3
+[lib_footprint_mismatch]: Footprint 'PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal' does not match copy in library 'Connector_Phoenix_MC'
+    Local override; warning (excluded)
+    @(157.0675 mm, 105.1950 mm): Footprint J3
+[lib_footprint_mismatch]: Footprint 'SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'
+    Local override; warning (excluded)
+    @(106.5000 mm, 107.7000 mm): Footprint JP1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
